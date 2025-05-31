@@ -3,6 +3,17 @@ import axios from 'axios';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
+const customCodeStyle = {
+    background: '#0005',
+    borderRadius: '8px',
+    padding: '20px',
+    fontSize: '1rem',
+    lineHeight: '1',
+    fontFamily: `'Menlo', 'Monaco', 'Courier New', monospace`,
+
+    overflowX: 'auto',
+};
+
 const Chat = () => {
     const [messages, setMessages] = useState([]);
     const [input, setInput] = useState('');
@@ -37,7 +48,7 @@ const Chat = () => {
             if (part.startsWith('```') && part.endsWith('```')) {
                 const code = part.replace(/^```[a-zA-Z]*\n?/, '').replace(/```$/, '');
                 return (
-                    <SyntaxHighlighter key={i} language="javascript" style={vscDarkPlus}>
+                    <SyntaxHighlighter key={i} language="javascript" style={vscDarkPlus} customStyle={customCodeStyle}>
                         {code}
                     </SyntaxHighlighter>
                 );

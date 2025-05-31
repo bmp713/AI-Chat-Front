@@ -188,7 +188,7 @@ pre {
 
 pre.code-block,
 .code-block {
-    background: #000f !important;
+    background: #000e !important; // darker background
     color: #fff;
     border-radius: 8px;
     padding: 20px;
@@ -201,22 +201,17 @@ pre.code-block,
     box-sizing: border-box;
     word-break: normal;
     white-space: pre;
-
+    border: 5px solid #084fa1;
     /* Custom scrollbar styles for code blocks */
     scrollbar-color: #444 #181818;
     /* thumb color, track color */
     scrollbar-width: thin;
 }
 
-pre.code-block span,
-.code-block span {
-    background: none !important;
-}
-
 pre.code-block::-webkit-scrollbar,
 .code-block::-webkit-scrollbar {
     height: 8px;
-    background: #000;
+    background: #000e !important;
 }
 
 /* Custom scrollbar styles for the whole app */
