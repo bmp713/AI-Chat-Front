@@ -58,10 +58,3 @@ This project is a simple chatbot application that utilizes the OpenAI API for ge
 - Type your message in the input field and press Enter or click the send button to communicate with the chatbot.
 - The chatbot will respond based on the input provided, utilizing the OpenAI API for generating responses.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or features.
-
-## License
-
-This project is licensed under the MIT License.

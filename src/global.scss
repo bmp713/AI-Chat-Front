@@ -220,21 +220,43 @@ pre.code-block::-webkit-scrollbar,
 }
 
 /* Custom scrollbar styles for the whole app */
-body, .chat-window, .code-block, pre.code-block, textarea, .chat-input {
+body,
+.chat-window,
+.code-block,
+pre.code-block,
+textarea,
+.chat-input {
     scrollbar-color: #444 #181818;
     scrollbar-width: thin;
 }
 
-body::-webkit-scrollbar, .chat-window::-webkit-scrollbar, .code-block::-webkit-scrollbar, pre.code-block::-webkit-scrollbar, textarea::-webkit-scrollbar, .chat-input::-webkit-scrollbar {
+body::-webkit-scrollbar,
+.chat-window::-webkit-scrollbar,
+.code-block::-webkit-scrollbar,
+pre.code-block::-webkit-scrollbar,
+textarea::-webkit-scrollbar,
+.chat-input::-webkit-scrollbar {
     background: #181818;
     height: 8px;
     width: 8px;
 }
-body::-webkit-scrollbar-thumb, .chat-window::-webkit-scrollbar-thumb, .code-block::-webkit-scrollbar-thumb, pre.code-block::-webkit-scrollbar-thumb, textarea::-webkit-scrollbar-thumb, .chat-input::-webkit-scrollbar-thumb {
+
+body::-webkit-scrollbar-thumb,
+.chat-window::-webkit-scrollbar-thumb,
+.code-block::-webkit-scrollbar-thumb,
+pre.code-block::-webkit-scrollbar-thumb,
+textarea::-webkit-scrollbar-thumb,
+.chat-input::-webkit-scrollbar-thumb {
     background: #444;
     border-radius: 6px;
 }
-body::-webkit-scrollbar-corner, .chat-window::-webkit-scrollbar-corner, .code-block::-webkit-scrollbar-corner, pre.code-block::-webkit-scrollbar-corner, textarea::-webkit-scrollbar-corner, .chat-input::-webkit-scrollbar-corner {
+
+body::-webkit-scrollbar-corner,
+.chat-window::-webkit-scrollbar-corner,
+.code-block::-webkit-scrollbar-corner,
+pre.code-block::-webkit-scrollbar-corner,
+textarea::-webkit-scrollbar-corner,
+.chat-input::-webkit-scrollbar-corner {
     background: #181818;
 }
 
