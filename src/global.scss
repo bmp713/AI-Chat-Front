@@ -188,7 +188,7 @@ pre {
 
 pre.code-block,
 .code-block {
-    background: #000f;
+    background: #000f !important;
     color: #fff;
     border-radius: 8px;
     padding: 20px;
@@ -216,7 +216,7 @@ pre.code-block span,
 pre.code-block::-webkit-scrollbar,
 .code-block::-webkit-scrollbar {
     height: 8px;
-    background: #181818;
+    background: #000;
 }
 
 /* Custom scrollbar styles for the whole app */
