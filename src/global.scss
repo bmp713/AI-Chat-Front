@@ -1,6 +1,8 @@
 body {
+    min-height: 100vh;
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #222f;
+    background: linear-gradient(#1e1e20, #1e1e20) no-repeat;
     margin: 0;
     padding: 0;
     color: #222;
@@ -10,6 +12,7 @@ body {
     max-width: 60vw;
     margin: 20px auto;
     background: rgb(44, 44, 44);
+
     border-radius: 5px;
     box-shadow: 5px 5px 20px #0003;
     padding: 20px 25px 25px 25px;
