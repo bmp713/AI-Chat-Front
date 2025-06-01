@@ -1,4 +1,4 @@
-# OpenAI Chatbot Frontend
+# AI Chatbot Frontend
 
 This project is a simple chatbot application that utilizes the OpenAI API for generating responses. It consists of a React frontend and a Node.js backend.
 
