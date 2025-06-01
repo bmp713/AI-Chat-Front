@@ -1,6 +1,6 @@
 # AI Chatbot Frontend
 
-This project is a simple chatbot application backend that utilizes the Gemini API for generating responses. It consists of a React frontend and a Node.js backend.
+This project is a chatbot application backend that utilizes the Gemini API for generating responses. It consists of a React frontend and a Node.js backend.
 
 ## Getting Started
 
@@ -14,40 +14,21 @@ This project is a simple chatbot application backend that utilizes the Gemini AP
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd openai-chatbot
    ```
 
-2. Navigate to the frontend directory:
-   ```
-   cd frontend
-   ```
-
-3. Install the frontend dependencies:
+2. Install the dependencies:
    ```
    npm install
    ```
-
-4. Navigate to the backend directory:
-   ```
-   cd ../backend
-   ```
-
-5. Install the backend dependencies:
-   ```
-   npm install
-   ```
-
 ### Running the Application
 
 1. Start the backend server:
    ```
-   cd backend
-   npm start
+   node src/App.js
    ```
 
 2. In a new terminal, start the frontend application:
    ```
-   cd frontend
    npm start
    ```
 
@@ -56,5 +37,7 @@ This project is a simple chatbot application backend that utilizes the Gemini AP
 ## Usage
 
 - Type your message in the input field and press Enter or click the send button to communicate with the chatbot.
-- The chatbot will respond based on the input provided, utilizing the OpenAI API for generating responses.
+- The chatbot will respond based on the input provided, utilizing the Gemini API for generating responses.
+
+
 
