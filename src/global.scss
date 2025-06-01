@@ -196,8 +196,8 @@ pre.code-block,
     background: #000e !important; // darker background
     color: #fff;
     border-radius: 8px;
-    padding: 20px;
-    margin: 10px 0px 0px 0px;
+    padding: 200px;
+    margin: 00px 0px 0px 0px;
     font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', 'Courier New', monospace;
     font-size: 1rem;
     overflow-x: auto;
@@ -207,9 +207,7 @@ pre.code-block,
     word-break: normal;
     white-space: pre;
     border: 5px solid #084fa1;
-    /* Custom scrollbar styles for code blocks */
     scrollbar-color: #444 #181818;
-    /* thumb color, track color */
     scrollbar-width: thin;
 }
 

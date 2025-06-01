@@ -7,10 +7,10 @@ const customCodeStyle = {
     background: '#0005',
     borderRadius: '8px',
     padding: '20px',
+    margin: '20px 0',
     fontSize: '1rem',
     lineHeight: '1',
     fontFamily: `'Menlo', 'Monaco', 'Courier New', monospace`,
-
     overflowX: 'auto',
 };
 
@@ -44,6 +44,7 @@ const Chat = () => {
 
     const renderMessageText = (text) => {
         const parts = text.split(/(```[\s\S]*?```)/g);
+
         return parts.map((part, i) => {
             if (part.startsWith('```') && part.endsWith('```')) {
                 const code = part.replace(/^```[a-zA-Z]*\n?/, '').replace(/```$/, '');
@@ -56,16 +57,29 @@ const Chat = () => {
             // For non-code parts, process each line
             return part.split('\n').map((line, j) => {
 
+                console.log('Processing part, line:', part, line);
                 // Remove all Gemini poorly formatted asterisks from the line and reformat 
                 const noAsterisks = line.replace(/\*/g, '');
 
                 // If the original line starts with **, style as a header
                 if (/^\*\*/.test(line)) {
                     return <h3 key={j}
-                        style={{ margin: "5px 0 -5px 0", fontWeight: 700, fontSize: '1.3rem' }}>{noAsterisks}{j < part.split('\n').length - 1 ? <br /> : null}
+                        style={{ margin: "2rem 0 1rem 0", fontWeight: 700, fontSize: '1.5rem' }}>{noAsterisks}
                     </h3>;
                 }
-                return <span key={j}>{noAsterisks}{j < part.split('\n').length - 1 ? <br /> : null}</span>;
+                // if (/^\d/.test(line)) {
+                //     return <p key={j}
+                //         style={{ margin: "1rem 0 0rem 0", fontWeight: 700, fontSize: '1rem' }}>{noAsterisks}
+                //     </p>;
+                // }
+                if (/:/.test(line)) {
+                    return <p key={j}
+                        style={{ margin: "1rem 0 1rem 0", fontWeight: 400, fontSize: '1rem' }}>{noAsterisks}
+                    </p>;
+                }
+                return <p key={j}
+                    style={{ margin: "0px 0 1rem 0", fontWeight: 400, fontSize: '1rem' }}>{noAsterisks}
+                </p>;
             });
         });
     }
