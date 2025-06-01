@@ -77,9 +77,9 @@ const Chat = () => {
                         style={{ margin: "1rem 0 1rem 0", fontWeight: 400, fontSize: '1rem' }}>{noAsterisks}
                     </p>;
                 }
-                return <p key={j}
+                return <span key={j}
                     style={{ margin: "0px 0 1rem 0", fontWeight: 400, fontSize: '1rem' }}>{noAsterisks}
-                </p>;
+                </span>;
             });
         });
     }
