@@ -1,6 +1,6 @@
 # AI Chatbot Frontend
 
-This project is a simple chatbot application that utilizes the OpenAI API for generating responses. It consists of a React frontend and a Node.js backend.
+This project is a simple chatbot application backend that utilizes the Gemini API for generating responses. It consists of a React frontend and a Node.js backend.
 
 ## Getting Started
 

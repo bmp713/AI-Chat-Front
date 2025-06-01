@@ -10,9 +10,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>AI Chat (Gemini 1.5)</h1>
-      <h2>Ask anything, including questions requiring conversation context.</h2>
-
+      <div className="headers">
+        <h1>AI Chat (Gemini 1.5)</h1>
+        <h2>Ask anything, including questions requiring conversation context.</h2>
+      </div>
       <Chat messages={messages} addMessage={addMessage} />
     </div>
   );
