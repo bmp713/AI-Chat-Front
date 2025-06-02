@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #222f;
-    background: linear-gradient(#1e1e20, #1e1e20) no-repeat;
+    background: linear-gradient(135deg, #1c1d1d, #252525) !important;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -12,7 +12,10 @@ body {
     max-width: 60vw;
     margin: 20px auto;
     background: rgb(44, 44, 44);
-    border-radius: 5px;
+    // background: linear-gradient(135deg, #1c1d1d, #252525) !important;
+    background: linear-gradient(135deg, #26272b, #3e4053, #26272b) !important;
+    // background: linear-gradient(135deg, #15171f, #414049, #1a1c25) !important;
+    border-radius: 10px;
     box-shadow: 5px 5px 20px #0003;
     padding: 20px 25px 25px 25px;
 }
@@ -40,7 +43,7 @@ h2 {
 }
 
 .chat-window {
-    min-height: 10vh;
+    min-height: 20vh;
     overflow-y: auto;
     background: #222f;
     border-radius: 8px;
@@ -192,7 +195,7 @@ pre {
 
 pre.code-block,
 .code-block {
-    background: #000e !important; // darker background
+    background: #000000fd !important; // darker background
     color: #fff;
     border-radius: 8px;
     padding: 200px;

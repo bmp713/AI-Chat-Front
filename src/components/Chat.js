@@ -4,14 +4,13 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const customCodeStyle = {
-    background: '#0005',
+    background: '#00000060',
     borderRadius: '8px',
     padding: '20px',
     margin: '20px 0',
-    fontSize: '1rem',
     lineHeight: '1',
     fontFamily: `'Menlo', 'Monaco', 'Courier New', monospace`,
-    overflowX: 'auto',
+    //overflowX: 'auto',
 };
 
 const Chat = () => {
