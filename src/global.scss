@@ -11,11 +11,22 @@ body {
     max-width: 60vw;
     margin: 20px auto;
     background: rgb(44, 44, 44);
-    // background: linear-gradient(135deg, #1c1d1d, #252525) !important;
+    background: linear-gradient(135deg, #1c1d1d, #252525) !important;
     background: linear-gradient(135deg, #26272b, #3e4053, #26272b) !important;
-    // background: linear-gradient(135deg, #15171f, #414049, #1a1c25) !important;
+    background: linear-gradient(135deg, #15171f, #414049, #1a1c25) !important;
+    background: linear-gradient(135deg, #303236, #3e4053, #37383d) !important;
+    background: linear-gradient(135deg, #52555c, #35353a, #151516) !important;
+    background: linear-gradient(135deg, #3e3e47, #2e3038) !important;
+    background: linear-gradient(135deg, #23252b, #3e3e47) !important;
+    border: none;
+
+    border-radius: 8px;
+    box-shadow:
+        inset 1px 1px 5px #fff7,
+        inset -1px -1px 5px #0007,
+        5px 5px 20px #0003;
+
     border-radius: 10px;
-    box-shadow: 5px 5px 20px #0003;
     padding: 20px 25px 25px 25px;
 }
 
@@ -80,7 +91,11 @@ pre {
     text-align: left;
     display: block;
     width: fit-content;
-    /* margin-left auto aligns the box to the right, text-align left keeps text left-aligned */
+
+    box-shadow:
+        inset 1px 1px 5px #fff7,
+        inset -1px -1px 5px #0007,
+        2px 2px 5px #0003;
 }
 
 .bot {
@@ -123,9 +138,15 @@ button[type="submit"] {
     background: #555f;
     color: #fff;
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 11px 22px;
     font-size: 1rem;
+
+    box-shadow:
+        inset 1px 1px 5px #fff7,
+        inset -1px -1px 5px #0007,
+        2px 2px 5px #0003;
+
     cursor: pointer;
 }
 
@@ -272,6 +293,10 @@ textarea::-webkit-scrollbar-corner,
 
     h1 {
         font-size: 1.8rem;
+    }
+
+    .headers {
+        padding: 8px 25px;
     }
 
     .user,
