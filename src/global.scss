@@ -18,7 +18,7 @@ body {
     background: linear-gradient(135deg, #303236, #0a0a0a, #2c2c2c) !important;
     background: linear-gradient(135deg, #303236, #272727, #2c2c2c, #303236, #272727, #2c2c2c) !important;
     background: linear-gradient(135deg, #303236, #272727, #2c2c2c, #303236, #272727, #2c2c2c) !important;
-    background: linear-gradient(135deg, #4b4e57, #2e2e2e, #333333, #474a52, #2e2e2e, #5c5c5e) !important;
+    background: linear-gradient(135deg, #4b4e57, #2e2e2e, #333333, #474a52, #2e2e2e, #4c4c4e) !important;
     border: none;
 
     border-radius: 8px;
@@ -56,7 +56,7 @@ h2 {
 .chat-window {
     min-height: 20vh;
     overflow-y: auto;
-    background: #222f;
+    background: #11111177;
     //border: 1px solid #7777;
     box-shadow: inset 2px 2px 5px #0007, inset -2px -2px 5px #fff5;
     border-radius: 8px;
@@ -103,7 +103,7 @@ pre {
 .bot {
     text-align: left;
     color: #ffff;
-    background: #222f;
+    background: #2220;
     display: inline-block;
     padding: 8px 14px;
     border-radius: 8px;
