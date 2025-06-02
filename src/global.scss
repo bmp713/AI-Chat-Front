@@ -38,6 +38,7 @@ body {
 
 h1 {
     font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 700;
     text-align: center;
     color: #ffff;
     margin-top: 0px;
@@ -56,7 +57,7 @@ h2 {
 .chat-window {
     min-height: 20vh;
     overflow-y: auto;
-    background: #111111aa;
+    background: #2229;
     //border: 1px solid #7777;
     box-shadow: inset 2px 2px 5px #0007, inset -2px -2px 5px #fff5;
     border-radius: 8px;
@@ -81,10 +82,9 @@ pre {
 }
 
 .user {
-    background: #2b5d94;
     color: #ffff;
     border-radius: 10px;
-    padding: 11px 15px 12px 15px;
+    padding: 9px 15px 10px 15px;
     margin: 8px 15px 8px auto;
     max-width: 100%;
     word-break: break-word;
@@ -98,6 +98,8 @@ pre {
         inset 1px 1px 5px #fff7,
         inset -1px -1px 5px #0007,
         2px 2px 5px #0003;
+
+    background: linear-gradient(135deg, #2b5d94, #265585) !important;
 }
 
 .bot {
@@ -153,7 +155,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background: #084fa1;
+    background: linear-gradient(135deg, #316aa8, #2b5d94) !important;
 }
 
 .chat-input {
@@ -162,7 +164,8 @@ button[type="submit"]:hover {
     min-height: 40px;
     max-height: 120px;
     height: auto;
-    background: #111a;
+    background: #1116;
+
     color: #ffff;
     border: 1px solid #7770;
     border-radius: 8px;
@@ -193,9 +196,7 @@ button[type="submit"]:hover {
 }
 
 .chat-send-btn {
-    //background: #555f;
-    background: #084fa1 !important;
-    background: #2b5d94 !important;
+    background: linear-gradient(135deg, #2b5d94, #265585) !important;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -208,10 +209,14 @@ button[type="submit"]:hover {
     display: flex;
     align-items: center;
     box-sizing: border-box;
+    box-shadow:
+        inset 1px 1px 5px #fff7,
+        inset -1px -1px 5px #0007,
+        2px 2px 5px #0003;
 }
 
 .chat-send-btn:hover {
-    background: #084fa1;
+    background: linear-gradient(135deg, #326dad, #234b75, #275687, #326dad, #234b75, #275687) !important;
 }
 
 code,

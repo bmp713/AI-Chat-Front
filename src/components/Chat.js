@@ -4,7 +4,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const customCodeStyle = {
-    background: '#00000060',
+    background: '#00000050',
     borderRadius: '8px',
     padding: '20px',
     margin: '20px 0',
