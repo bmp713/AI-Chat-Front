@@ -32,8 +32,8 @@ const Chat = () => {
 
         try {
             // Send the full array of messages to the backend for context
-            //const response = await axios.post('http://localhost:5000/api/chat/send', { messages: newMessages });
-            const response = await axios.post('https://ai-chat-back.up.railway.app/api/chat/send', { messages: newMessages });
+            const response = await axios.post('http://localhost:5000/api/chat/send', { messages: newMessages });
+            //const response = await axios.post('https://ai-chat-back.up.railway.app/api/chat/send', { messages: newMessages });
 
             const botMessage = { text: response.data.response, sender: 'bot' };
             setMessages((prevMessages) => [...prevMessages, botMessage]);
