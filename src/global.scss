@@ -15,16 +15,17 @@ body {
     background: linear-gradient(135deg, #26272b, #3e4053, #26272b) !important;
     background: linear-gradient(135deg, #15171f, #414049, #1a1c25) !important;
     background: linear-gradient(135deg, #303236, #3e4053, #37383d) !important;
-    // background: linear-gradient(135deg, #52555c, #35353a, #151516) !important;
-    // background: linear-gradient(135deg, #3e3e47, #2e3038) !important;
-    // background: linear-gradient(135deg, #23252b, #3e3e47) !important;
+    background: linear-gradient(135deg, #303236, #0a0a0a, #2c2c2c) !important;
+    background: linear-gradient(135deg, #303236, #272727, #2c2c2c, #303236, #272727, #2c2c2c) !important;
+    background: linear-gradient(135deg, #303236, #272727, #2c2c2c, #303236, #272727, #2c2c2c) !important;
+    background: linear-gradient(135deg, #393b40, #2e2e2e, #333333, #393b40, #2e2e2e, #333333) !important;
     border: none;
 
     border-radius: 8px;
     box-shadow:
         inset 2px 2px 5px #fff3,
         inset 2px 2px 5px #0007,
-        5px 5px 20px #0003;
+        10px 10px 30px #0003;
 
     border-radius: 10px;
     padding: 20px 25px 25px 25px;
