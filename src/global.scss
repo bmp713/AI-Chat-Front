@@ -1,15 +1,16 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #222f;
-    min-height: 100vh;
+    min-height: 100%;
     margin: 0;
     padding: 0;
+    padding-top: 20px;
     color: #222;
 }
 
 .App {
     max-width: 60vw;
-    margin: 20px auto;
+    margin: 0px auto;
     background: rgb(44, 44, 44);
     background: linear-gradient(135deg, #1c1d1d, #252525) !important;
     background: linear-gradient(135deg, #26272b, #3e4053, #26272b) !important;
@@ -197,6 +198,7 @@ button[type="submit"]:hover {
 
 .chat-send-btn {
     background: linear-gradient(135deg, #2b5d94, #265585) !important;
+    // background: linear-gradient(135deg, #326dad, #234b75, #275687, #275687) !important;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -210,8 +212,8 @@ button[type="submit"]:hover {
     align-items: center;
     box-sizing: border-box;
     box-shadow:
-        inset 1px 1px 5px #fff7,
-        inset -1px -1px 5px #0007,
+        inset 1px 1px 1px #fff7,
+        inset -1px -1px 1px #0007,
         2px 2px 5px #0003;
 }
 
