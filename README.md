@@ -1,7 +1,7 @@
 # AI Chatbot Frontend
 
-This project is a chatbot application backend that utilizes the Gemini API for generating responses. It consists of a React frontend and a Node.js backend.
-Context memory is implemented as well as formatting for the response stream.
+This project is a chatbot application that utilizes the Gemini API for generating responses. It consists of a React frontend and a Node.js backend.
+Context memory is implemented as well as formatting for the response stream, including VS Code styling for code.
 
 ## Getting Started
 
@@ -12,12 +12,12 @@ Context memory is implemented as well as formatting for the response stream.
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the backend and frontend repositories:
    ```
    git clone <repository-url>
    ```
 
-2. Install the dependencies:
+2. Install the dependencies for each:
    ```
    npm install
    ```
