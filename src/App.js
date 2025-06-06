@@ -14,7 +14,6 @@ function App() {
         <h1>AI Chat (Gemini 2.0)</h1>
         <h2 className="text-left">Ask anything, including code questions and anything requiring conversation context.
         </h2>
-        {/* <p>Ask for code examples to see VS Code inspired styling.</p> */}
       </div>
       <Chat messages={messages} addMessage={addMessage} />
     </div>
