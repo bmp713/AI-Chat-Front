@@ -66,6 +66,7 @@ const Chat = () => {
                         style={{ margin: "2rem 0 1rem 0", fontWeight: 700, fontSize: '1.5rem' }}>{noAsterisks}
                     </h3>;
                 }
+                // If line contains a colon, style with margins
                 if (/:/.test(line)) {
                     return <p key={j}
                         style={{ margin: "1rem 0 1rem 0", fontWeight: 400, fontSize: '1rem' }}>{noAsterisks}
