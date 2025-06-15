@@ -1,11 +1,11 @@
 # AI Chatbot Frontend
 
 This project is a chatbot application that utilizes the Gemini API for generating responses. It consists of a React frontend and a Node.js backend.
-Context memory is implemented as well as formatting for the response stream, including VS Code styling for code.
+Context memory is implemented as well as formatting for the response stream, including VS Code styling for code.    
 
-## Getting Started
+https://ai-chat-front.up.railway.app/
 
-### Prerequisites
+### Setup
 
 - Node.js (version 14 or higher)
 - npm (Node package manager)
@@ -13,25 +13,18 @@ Context memory is implemented as well as formatting for the response stream, inc
 ### Installation
 
 1. Clone the backend and frontend repositories:
-   ```
    git clone <repository-url>
-   ```
 
 2. Install the dependencies for each:
-   ```
    npm install
-   ```
+
 ### Running the Application
 
 1. Start the backend server:
-   ```
    node src/App.js
-   ```
 
 2. In a new terminal, start the frontend application:
-   ```
    npm start
-   ```
 
 3. Open your browser and go to `http://localhost:3000` to access the chatbot.
 
